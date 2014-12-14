@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Cdr protocolType="ISUP_BICC" version="1.0" name="my CDR name" orderId="1003">
+    <DataNotifyPort>
+        <IP>192.168.10.3</IP>
+        <Port>9710</Port>
+    </DataNotifyPort>
+    <AccessAccount>
+        <Id>0x03eb</Id>
+        <Password>COTK8023</Password>
+    </AccessAccount>
+    <ValidTime>
+        <StartTime>2011-09-23T05:50:46</StartTime>
+        <EndTime>2050-09-23T05:50:46</EndTime>
+    </ValidTime>
+    <GeneratingConditions desc="CDR GeneratingConditions">
+        <GeneratingCondition protocolType="ISUP">
+            <ServiceTypes>
+                <ServiceType desc="ISUP Call" id="0"/>
+            </ServiceTypes>
+            <CreatePoints desc="This is where the DR is created">
+                <Status Desc="Closure" id="0"/>
+                <Status Desc="IAM" id="0"/>
+            </CreatePoints>
+        </GeneratingCondition>
+        <GeneratingCondition protocolType="BICC">
+            <ServiceTypes>
+                <ServiceType desc="BICC Call" id="0"/>
+            </ServiceTypes>
+            <CreatePoints desc="This is where the DR is created">
+                <Status Desc="Closure" id="0"/>
+                <Status Desc="IAM" id="0"/>
+            </CreatePoints>
+        </GeneratingCondition>
+    </GeneratingConditions>
+    <Format name="my format 1">
+        <Data desc="Original called IN number" id="11">
+            <serviceType desc="ISUP Call" id="0"/>
+            <subProtocolType desc="ISUP" id="0"/>
+            <messageType desc="Initial address" id="0"/>
+            <parameterType desc="Original called IN number" id="11"/>
+            <withTimeStamp>false</withTimeStamp>
+        </Data>
+        <Data desc="Message type" id="10">
+            <serviceType desc="ISUP Call" id="0"/>
+            <subProtocolType desc="ISUP" id="0"/>
+            <messageType desc="Initial address" id="0"/>
+            <parameterType desc="Message type" id="10"/>
+            <withTimeStamp>false</withTimeStamp>
+        </Data>
+        <Data desc="Redirecting number" id="13">
+            <serviceType desc="ISUP Call" id="0"/>
+            <subProtocolType desc="ISUP" id="0"/>
+            <messageType desc="Initial address" id="0"/>
+            <parameterType desc="Redirecting number" id="13"/>
+            <withTimeStamp>false</withTimeStamp>
+        </Data>
+        <Data desc="DPC" id="2">
+            <serviceType desc="ISUP Call" id="0"/>
+            <subProtocolType desc="MTP" id="0"/>
+            <messageType desc="MTP" id="0"/>
+            <parameterType desc="DPC" id="2"/>
+            <withTimeStamp>false</withTimeStamp>
+        </Data>
+        <Data desc="Message type" id="14">
+            <serviceType desc="ISUP Call" id="0"/>
+            <subProtocolType desc="ISUP" id="0"/>
+            <messageType desc="Release complete" id="0"/>
+            <parameterType desc="Message type" id="14"/>
+            <withTimeStamp>false</withTimeStamp>
+        </Data>
+        <Data desc="OPC" id="3">
+            <serviceType desc="ISUP Call" id="0"/>
+            <subProtocolType desc="MTP" id="0"/>
+            <messageType desc="MTP" id="0"/>
+            <parameterType desc="OPC" id="3"/>
+            <withTimeStamp>false</withTimeStamp>
+        </Data>
+        <Data desc="OPC" id="6">
+            <serviceType desc="ISUP Call" id="0"/>
+            <subProtocolType desc="M3UA" id="0"/>
+            <messageType desc="Payload data" id="0"/>
+            <parameterType desc="OPC" id="6"/>
+            <withTimeStamp>false</withTimeStamp>
+        </Data>
+        <Data desc="Original called number" id="12">
+            <serviceType desc="ISUP Call" id="0"/>
+            <subProtocolType desc="ISUP" id="0"/>
+            <messageType desc="Initial address" id="0"/>
+            <parameterType desc="Original called number" id="12"/>
+            <withTimeStamp>false</withTimeStamp>
+        </Data>
+        <Data desc="Generic number" id="9">
+            <serviceType desc="ISUP Call" id="0"/>
+            <subProtocolType desc="ISUP" id="0"/>
+            <messageType desc="Initial address" id="0"/>
+            <parameterType desc="Generic number" id="9"/>
+            <withTimeStamp>false</withTimeStamp>
+        </Data>
+        <Data desc="CIC" id="1">
+            <serviceType desc="ISUP Call" id="0"/>
+            <subProtocolType desc="MTP" id="0"/>
+            <messageType desc="MTP" id="0"/>
+            <parameterType desc="CIC" id="1"/>
+            <withTimeStamp>false</withTimeStamp>
+        </Data>
+        <Data desc="Called party number" id="7">
+            <serviceType desc="ISUP Call" id="0"/>
+            <subProtocolType desc="ISUP" id="0"/>
+            <messageType desc="Initial address" id="0"/>
+            <parameterType desc="Called party number" id="7"/>
+            <withTimeStamp>false</withTimeStamp>
+        </Data>
+        <Data desc="Calling party number" id="8">
+            <serviceType desc="ISUP Call" id="0"/>
+            <subProtocolType desc="ISUP" id="0"/>
+            <messageType desc="Initial address" id="0"/>
+            <parameterType desc="Calling party number" id="8"/>
+            <withTimeStamp>false</withTimeStamp>
+        </Data>
+        <Data desc="DPC" id="5">
+            <serviceType desc="ISUP Call" id="0"/>
+            <subProtocolType desc="M3UA" id="0"/>
+            <messageType desc="Payload data" id="0"/>
+            <parameterType desc="DPC" id="5"/>
+            <withTimeStamp>false</withTimeStamp>
+        </Data>
+        <Data desc="Original called number" id="16">
+            <serviceType desc="BICC Call" id="0"/>
+            <subProtocolType desc="BICC" id="0"/>
+            <messageType desc="Initial address" id="1"/>
+            <parameterType desc="Original called number" id="16"/>
+            <withTimeStamp>false</withTimeStamp>
+        </Data>
+        <Data desc="Generic number" id="15">
+            <serviceType desc="BICC Call" id="0"/>
+            <subProtocolType desc="BICC" id="0"/>
+            <messageType desc="Initial address" id="1"/>
+            <parameterType desc="Generic number" id="15"/>
+            <withTimeStamp>false</withTimeStamp>
+        </Data>
+        <Data desc="Redirection number" id="18">
+            <serviceType desc="BICC Call" id="0"/>
+            <subProtocolType desc="BICC" id="0"/>
+            <messageType desc="Release" id="12"/>
+            <parameterType desc="Redirection number" id="18"/>
+            <withTimeStamp>false</withTimeStamp>
+        </Data>
+        <Data desc="Redirecting number" id="17">
+            <serviceType desc="BICC Call" id="0"/>
+            <subProtocolType desc="BICC" id="0"/>
+            <messageType desc="Initial address" id="1"/>
+            <parameterType desc="Redirecting number" id="17"/>
+            <withTimeStamp>false</withTimeStamp>
+        </Data>
+        <Data desc="CIC" id="4">
+            <serviceType desc="ISUP Call" id="0"/>
+            <subProtocolType desc="M3UA" id="0"/>
+            <messageType desc="Payload data" id="0"/>
+            <parameterType desc="CIC" id="4"/>
+            <withTimeStamp>false</withTimeStamp>
+        </Data>
+    </Format>
+</Cdr>

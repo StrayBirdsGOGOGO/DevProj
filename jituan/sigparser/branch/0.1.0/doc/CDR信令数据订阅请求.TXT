@@ -1,0 +1,34 @@
+1、BICC可变字段：  
+   消息 IAM ：
+    1）IE：通用号码 Generic number
+    2）IE：原被叫号码 Original called number
+    3）IE：改发号码 Redirecting number
+ 
+   消息 REL ：
+    1）IE：改发到的号码 Redirection number
+ 
+   消息RLC:
+    无IE
+
+2、ISUP可变字段：
+   
+    消息 IAM ：
+    1）IE：主叫号码 Calling Party number
+    2）IE：被叫号码 Called party number
+    3）IE：消息类型 Message Type
+    4）IE：通用号码 Generic number
+    5）IE：原被叫号码 Original called number
+    6）IE：原被叫IN号码 Original called IN number
+    7）IE：改发号码 Redirecting number
+
+ 
+   消息RLC:
+    1）IE：主叫号码 Calling Party number
+    2）IE：被叫号码 Called party number
+    3）IE：消息类型 Message Type
+    
+如果ISUP是有以下3个字段来标识一个呼叫，那么还需要订阅以下3个字段：
+    呼叫识别码 CIC
+    源信令点编码 OPC
+    目的信令点编码 DPC
+
